@@ -135,11 +135,23 @@ http://localhost:5173
 - Mobile application support
 - Expanded regional language support
 
+---
+
 ## 👨‍💻 Developed By
 
-- Sandipan Rakshit
-- Chinmoy Das
-- Sourangshu Kundu
+- **Sandipan Rakshit**
+- **Chinmoy Das**
+- **Sourangshu Kundu**
+
+---
+
+## 🎓 Mentored By
+
+- **Mr. Puspen Lahiri**  
+  Assistant Professor  
+  **MCKV Institute of Engineering**
+
+---
 
 ## 🎓 Academic & Internship Details
 
