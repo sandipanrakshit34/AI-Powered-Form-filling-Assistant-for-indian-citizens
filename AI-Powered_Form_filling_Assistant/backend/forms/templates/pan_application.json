@@ -1,0 +1,49 @@
+{
+    "formId": "pan_application",
+    "formName": "PAN Application Form",
+    "description": "Application for Permanent Account Number (PAN)",
+    "department": "Income Tax Department",
+    "fields": [
+        {
+            "fieldId": "applicant_name",
+            "fieldLabel": "Full Name (As per ID)",
+            "fieldType": "text",
+            "mappingSource": "name",
+            "required": true
+        },
+        {
+            "fieldId": "date_of_birth",
+            "fieldLabel": "Date of Birth (DD/MM/YYYY)",
+            "fieldType": "date",
+            "mappingSource": "dob",
+            "required": true
+        },
+        {
+            "fieldId": "gender",
+            "fieldLabel": "Gender",
+            "fieldType": "select",
+            "mappingSource": "gender",
+            "required": true,
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
+        },
+        {
+            "fieldId": "pan_number",
+            "fieldLabel": "PAN Number (if available)",
+            "fieldType": "text",
+            "mappingSource": "pan",
+            "required": false,
+            "validation": "^[A-Z]{5}[0-9]{4}[A-Z]{1}$"
+        },
+        {
+            "fieldId": "address",
+            "fieldLabel": "Residential Address",
+            "fieldType": "textarea",
+            "mappingSource": "address",
+            "required": true
+        }
+    ]
+}

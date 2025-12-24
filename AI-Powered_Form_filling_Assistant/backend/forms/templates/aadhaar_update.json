@@ -1,0 +1,48 @@
+{
+    "formId": "aadhaar_update",
+    "formName": "Aadhaar Update/Correction Form",
+    "description": "Form for updating or correcting Aadhaar details",
+    "department": "UIDAI (Unique Identification Authority of India)",
+    "fields": [
+        {
+            "fieldId": "aadhaar_number",
+            "fieldLabel": "Aadhaar Number",
+            "fieldType": "text",
+            "mappingSource": "aadhar",
+            "required": true,
+            "validation": "^[0-9]{12}$"
+        },
+        {
+            "fieldId": "full_name",
+            "fieldLabel": "Full Name",
+            "fieldType": "text",
+            "mappingSource": "name",
+            "required": true
+        },
+        {
+            "fieldId": "date_of_birth",
+            "fieldLabel": "Date of Birth (DD/MM/YYYY)",
+            "fieldType": "date",
+            "mappingSource": "dob",
+            "required": true
+        },
+        {
+            "fieldId": "gender",
+            "fieldLabel": "Gender",
+            "fieldType": "select",
+            "mappingSource": "gender",
+            "required": true,
+            "options": [
+                "Male",
+                "Female"
+            ]
+        },
+        {
+            "fieldId": "address",
+            "fieldLabel": "Address",
+            "fieldType": "textarea",
+            "mappingSource": "address",
+            "required": true
+        }
+    ]
+}

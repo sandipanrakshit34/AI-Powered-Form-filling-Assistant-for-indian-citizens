@@ -1,0 +1,47 @@
+{
+    "formId": "caste_certificate",
+    "formName": "Caste Certificate Application",
+    "description": "Application for Caste/SC/ST/OBC Certificate",
+    "department": "Revenue/Social Welfare Department",
+    "fields": [
+        {
+            "fieldId": "applicant_name",
+            "fieldLabel": "Applicant Full Name",
+            "fieldType": "text",
+            "mappingSource": "name",
+            "required": true
+        },
+        {
+            "fieldId": "father_name",
+            "fieldLabel": "Father's Name",
+            "fieldType": "text",
+            "required": true
+        },
+        {
+            "fieldId": "date_of_birth",
+            "fieldLabel": "Date of Birth",
+            "fieldType": "date",
+            "mappingSource": "dob",
+            "required": true
+        },
+        {
+            "fieldId": "caste_category",
+            "fieldLabel": "Caste Category",
+            "fieldType": "select",
+            "required": true,
+            "options": [
+                "General",
+                "SC (Scheduled Caste)",
+                "ST (Scheduled Tribe)",
+                "OBC (Other Backward Class)"
+            ]
+        },
+        {
+            "fieldId": "address",
+            "fieldLabel": "Address",
+            "fieldType": "textarea",
+            "mappingSource": "address",
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "formId": "birth_certificate",
+    "formName": "Birth Certificate Application",
+    "description": "Application form for birth certificate from Seva Kendra",
+    "department": "Vital Statistics Office",
+    "fields": [
+        {
+            "fieldId": "applicant_name",
+            "fieldLabel": "Applicant Full Name",
+            "fieldType": "text",
+            "mappingSource": "name",
+            "required": true,
+            "validation": "^[a-zA-Z\\s]{3,100}$"
+        },
+        {
+            "fieldId": "date_of_birth",
+            "fieldLabel": "Date of Birth (DD/MM/YYYY)",
+            "fieldType": "date",
+            "mappingSource": "dob",
+            "required": true,
+            "validation": "^(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[012])/\\d{4}$"
+        },
+        {
+            "fieldId": "gender",
+            "fieldLabel": "Gender",
+            "fieldType": "select",
+            "mappingSource": "gender",
+            "required": true,
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
+        },
+        {
+            "fieldId": "father_name",
+            "fieldLabel": "Father's Name",
+            "fieldType": "text",
+            "required": true
+        },
+        {
+            "fieldId": "address",
+            "fieldLabel": "Permanent Address",
+            "fieldType": "textarea",
+            "mappingSource": "address",
+            "required": true
+        }
+    ]
+}

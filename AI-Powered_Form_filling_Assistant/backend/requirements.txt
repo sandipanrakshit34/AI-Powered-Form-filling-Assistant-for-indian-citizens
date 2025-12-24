@@ -1,0 +1,10 @@
+flask
+flask-cors
+easyocr
+pymupdf
+opencv-python
+pillow
+numpy
+python-dotenv
+openai
+langdetect

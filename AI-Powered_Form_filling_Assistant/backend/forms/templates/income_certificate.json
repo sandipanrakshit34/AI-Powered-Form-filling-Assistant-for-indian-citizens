@@ -1,0 +1,54 @@
+{
+    "formId": "income_certificate",
+    "formName": "Income Certificate Application",
+    "description": "Application for Income Certificate from Taluka Office",
+    "department": "Revenue Department",
+    "fields": [
+        {
+            "fieldId": "applicant_name",
+            "fieldLabel": "Applicant Name",
+            "fieldType": "text",
+            "mappingSource": "name",
+            "required": true
+        },
+        {
+            "fieldId": "father_name",
+            "fieldLabel": "Father's Name",
+            "fieldType": "text",
+            "required": true
+        },
+        {
+            "fieldId": "date_of_birth",
+            "fieldLabel": "Date of Birth",
+            "fieldType": "date",
+            "mappingSource": "dob",
+            "required": true
+        },
+        {
+            "fieldId": "gender",
+            "fieldLabel": "Gender",
+            "fieldType": "select",
+            "mappingSource": "gender",
+            "required": true,
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
+        },
+        {
+            "fieldId": "annual_income",
+            "fieldLabel": "Annual Income (in INR)",
+            "fieldType": "text",
+            "required": true,
+            "validation": "^[0-9]{1,10}$"
+        },
+        {
+            "fieldId": "address",
+            "fieldLabel": "Residential Address",
+            "fieldType": "textarea",
+            "mappingSource": "address",
+            "required": true
+        }
+    ]
+}
