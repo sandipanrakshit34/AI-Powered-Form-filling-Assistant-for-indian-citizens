@@ -147,7 +147,7 @@ http://localhost:5173
 
 ## 🎓 Mentored By
 
-- **Mr. Puspen Lahiri**  
+- **Prof. Puspen Lahiri**  
   Assistant Professor  
   **MCKV Institute of Engineering**
 
