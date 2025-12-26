@@ -7,6 +7,14 @@ Citizens in India frequently need to fill multiple government service forms at S
 
 This project aims to build an **AI-powered system** that automatically extracts relevant information from uploaded identity documents (such as Aadhaar, PAN, Voter ID, etc.) and intelligently auto-fills government service forms, significantly reducing manual effort and errors.
 
+## Demo
+<p align="center">
+  <a href="https://drive.google.com/file/d/1MVTeWmLBOXtdMwFKDqe8WoTMDMG0n1m0/view" target="_blank">
+    <img src="Project Demonstration Video/demo_thumbnail.png" width="100%" alt="Demo Video"/>
+  </a>
+</p>
+
+
 ### Core Objectives
 - Automate form filling using AI and OCR  
 - Reduce processing time and human errors  
