@@ -146,7 +146,7 @@ http://localhost:5173
 ---
 
 ## 👨‍💻 Developed By
-
+###  Team: **SmartSeva**  
 - **Sandipan Rakshit**
 - **Chinmoy Das**
 - **Sourangshu Kundu**
